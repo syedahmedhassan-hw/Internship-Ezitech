@@ -1,0 +1,4 @@
+Task2:
+Create Your First App: Build a basic Counter App in Flutter.
+Wireless Debugging: Run and test this app on your physical device using Wireless Debugging (no cables attached!).
+Customization: Change the app name, package name, and the main title/UI text to make it your own.

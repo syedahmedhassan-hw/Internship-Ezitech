@@ -28,6 +28,9 @@ migrate_working_dir/
 **/.pub-cache/
 **/.pub/
 **/build/
+flutter/
+.vercel
+
 
 # Symbol processing related
 **/symbols/

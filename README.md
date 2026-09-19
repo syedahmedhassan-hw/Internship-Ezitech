@@ -113,6 +113,43 @@ A comprehensive portfolio showcasing all projects developed during the **Ezitech
 
 ---
 
+## 🌐 Live Vercel Deployments (Independent Task Support)
+
+Every task in this repository is equipped with dedicated **Vercel CI scripts (`vercel-build.sh`, `vercel.json`, and `package.json`)** to enable automated independent live web deployments on Vercel.
+
+### 📋 Task-by-Task Vercel Configuration Table
+
+| # | Task Application | Root Directory in Vercel | Build Command | Output Directory |
+|:---:|:---|:---|:---|:---|
+| **Hub** | **[Internship Showcase Hub](index.html)** | `.` (Root) | *(Static)* | `.` |
+| **01** | **[Simple Calculator](Task%201/simple_calculator)** | `Task 1/simple_calculator` | `bash vercel-build.sh` | `build/web` |
+| **02** | **[Counter App](Task%202/counter_app)** | `Task 2/counter_app` | `bash vercel-build.sh` | `build/web` |
+| **03** | **[Profile Card App](Task%203/profile_card_app)** | `Task 3/profile_card_app` | `bash vercel-build.sh` | `build/web` |
+| **04** | **[Recipe Finder](Task%204/recipe_finder)** | `Task 4/recipe_finder` | `bash vercel-build.sh` | `build/web` |
+| **05** | **[Ahmed Store E-Commerce](Task%205/ecommerce_app)** | `Task 5/ecommerce_app` | `bash vercel-build.sh` | `build/web` |
+| **07** | **[OmniSense Pro Telemetry](Task%207)** | `Task 7` | `bash vercel-build.sh` | `build/web` |
+
+---
+
+### 🚀 How to Deploy Each Task to Vercel (3 Easy Steps)
+
+1. **Import Repository into Vercel:**
+   - Go to the [Vercel Dashboard](https://vercel.com/dashboard) and click **"Add New..." &rarr; "Project"**.
+   - Select your GitHub repository: `syedahmedhassan-hw/Internship-Ezitech`.
+
+2. **Select Task Root Directory:**
+   - In the project configuration screen, click **"Edit"** next to **Root Directory**.
+   - Choose the task folder you want to deploy (e.g., `Task 5/ecommerce_app` or `Task 7`).
+
+3. **Deploy:**
+   - Leave Framework Preset as *Other* (the preconfigured `vercel.json` and `vercel-build.sh` automatically handle Flutter SDK installation, dependencies, and release web compilation).
+   - Click **"Deploy"**!
+
+> [!TIP]
+> Repeat these steps for each task to get separate, dedicated live URLs for all your internship submissions (e.g. `ezitech-calculator.vercel.app`, `ezitech-omnisense.vercel.app`, etc.).
+
+---
+
 ## 🚦 Getting Started
 
 ### Prerequisites
